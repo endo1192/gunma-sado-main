@@ -1,0 +1,66 @@
+@charset 'utf-8';
+
+/* kaimaku */
+.kaimaku {
+    width: 100%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.kaimaku .desc {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin: 0 auto;
+    border: solid black 3px;
+    border-radius: 20px;
+}
+
+.kaimaku .desc p {
+    font-size: 100px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bishi {
+    position: absolute;
+    top: 60%;
+    left: 10px;
+}
+
+.dododo {
+    position: absolute;
+    top: -50px;
+}
+
+.gogogo {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+/* intro */
+.section-head {
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.sche {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.time {
+    padding-left: 30px;
+}
+
+.img {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img img+img {
+    margin-left: 15px;
+}
